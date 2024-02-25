@@ -1,0 +1,13 @@
+p {
+    color: green;
+}
+
+svg path:hover {
+    fill: red !important;
+}
+
+.show {
+    transform: scale(1.2);
+    visibility: visible;
+    opacity: 1;
+}
