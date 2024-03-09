@@ -1,4 +1,4 @@
-console.log("this is running");
+
 var a = document.getElementById("svg");
 
         //mouse wheel zoom
@@ -32,10 +32,19 @@ var a = document.getElementById("svg");
 
                 //(min-x, min-y, width, height)
                 //original: viewBox="0 0 3408 2249.9999"
+            
+                gsap.to(svg2, {
+                    attr: {
+                        viewBox: '650 1450 200 200'
+                    },
+                    duration: 1,
+                    ease: "power3.inOut"
+                   
+                })                
+
+                //svg2.setAttribute("viewBox","660 1450 200 200");                
                 
-                svg2.setAttribute("viewBox","-0.9 -13 3408 2249.9999");
-                
-                
+            
         })
 
         })
