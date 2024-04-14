@@ -15,3 +15,7 @@ svg path:hover {
 #path4878  {
     fill: purple;
 }
+
+.svg { 
+    cursor: not-allowed;
+}

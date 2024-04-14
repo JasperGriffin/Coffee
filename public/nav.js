@@ -6,7 +6,7 @@ a.addEventListener("load", function() {
     var svgCanvas = svgDoc.getElementById("svg2"); //svg2
     //var viewPort = document.getElementById("layer1");
 
-    var viewPort = document.getElementsByClassName("viewport"); 
+    var viewPort = svgDoc.getElementsByClassName("viewport"); 
 
     var drag = false;
     var offset = { x: 0, y: 0 };
@@ -34,13 +34,19 @@ a.addEventListener("load", function() {
 
             console.log("current viewport: " + viewPort.toString()); 
 
-            viewPort.transform = matrix.toString(); 
+            //viewPort.transform = matrix.toString();
+            
+            //viewPort.style.transform = matrix.toString(); 
+
+            viewPort.transform = 'translate(-200px, -200px)';
+
             console.log("new viewport: " + viewPort); 
             console.log("test: " + viewPort.transform); 
+            
+            
             //viewPort.style.transform = matrix.toString();
 
-
-            viewPort.transform = matrix.toString(); //not doing anything..
+            //viewPort.transform = matrix.toString(); //not doing anything..
         }
     });
 
@@ -48,6 +54,7 @@ a.addEventListener("load", function() {
         drag = false;
     });
 
+    /*  
     svgCanvas.addEventListener('wheel', function (event) {
         var zoom = event.deltaY > 0 ? -1 : 1;
         var scale = 1 + factor * zoom;
@@ -63,6 +70,7 @@ a.addEventListener("load", function() {
         viewPort.transform = matrix.toString();
 
     });
+    */
     })
 
 
