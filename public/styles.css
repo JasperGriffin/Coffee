@@ -1,10 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Hammersmith+One);
+      svg {
+        font-family: 'HammersmithOne', 'Hammersmith One';
+        font-size: 4.6px; 
+      }
+      
+      @-webkit-keyframes flashline {
+        0%        {opacity: 0}
+        15%, 70%  {opacity: 1}
+        85%, 100% {opacity: 0}
+      }
+      
+      @keyframes flashline {
+        0%        {opacity: 0}
+        15%, 70%  {opacity: 1}
+        85%, 100% {opacity: 0}
+      }
+      
+      .linedisrupted {
+        -webkit-animation: flashline 1s ease infinite;
+        animation: flashline 1s ease infinite;
+      } 
+
 p {
     color: green;
 }
 
-svg path:hover {
+/*
+(svg path:hover {
     fill: red !important;
 }
+*/
 
 .show {
     transform: scale(1.2);
@@ -19,3 +44,5 @@ svg path:hover {
 .svg { 
     cursor: not-allowed;
 }
+
+

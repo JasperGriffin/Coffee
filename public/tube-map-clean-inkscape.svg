@@ -6246,7 +6246,7 @@
          id="g4876"
          transform="translate(814.7617,871.0665)"><path id="path4878"
            d="m 0,0 c 4.729,0 8.557,-3.832 8.557,-8.558 0,-4.723 -3.828,-8.553 -8.557,-8.553 -4.72,0 -8.552,3.83 -8.552,8.553 C -8.552,-3.832 -4.72,0 0,0"
-           style="fill:#263d96;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="fill:#8fce00;fill-opacity:1;fill-rule:nonzero;"
             /></g><g
          id="g4880"
          transform="translate(811.8682,860.0157)"><path
@@ -6264,7 +6264,10 @@
            style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
            id="path4890" /></g><text
          transform="matrix(1,0,0,-1,657.437,1112.1743)"
-         style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.7595px;font-family:'NJFont Medium';-inkscape-font-specification:NJFont-Medium;writing-mode:lr-tb;fill:#263d96;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="font-variant:normal;font-weight:500;font-stretch:normal;
+         font-size:11.7595px;font-family:'NJFont';
+         -inkscape-font-specification:Gill Sans;writing-mode:lr-tb;fill:#263d96;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         
          id="text145730"
          x="168.98401 175.98091 178.95607 184.74174 191.40938 201.34616 208.14314 214.81079"
          y="254.04048"><tspan
